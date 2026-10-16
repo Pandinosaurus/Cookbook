@@ -19,16 +19,16 @@
 <br>
 
 ## If You Like This Book & Need More Help
-Check out my Data Engineering Academy and personal Coaching at LearnDataEngineering.com
+Check out my Data Engineering Academy at LearnDataEngineering.com trusted by almost 2,000 students!
 
-**Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
+**Visit learndataengineering.com:** [Click Here](https://go.learndataengineering.com/k3dzbsxp)
 
 - Learn Data Engineering with our online Academy
 - Perfect for becoming a Data Engineer or add Data Engineering to your skillset
 - Proven process based on years of experience and hundreds of hours of personal coaching
-- Prepared courses on the most important fundamentals, tools and platforms plus our
+- Over 30 prepared courses on the most important techniques, fundamental tools and platforms plus our
 - Associate Data Engineer Certification
-- Private Slack workgroup with over 500 members
+- Academy Discord server with over 1,000 members
 
 
 
@@ -45,17 +45,25 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 -->
 
+## Here's what's new:
+Find the change log with all recent updates here: [SEE UPDATES](sections/10-Updates.md)
+
+## Building a Portfolio Project?
+Use my project README template to document it like a professional would: [Get the template](Code%20Examples/template-readme.md)
+
 # Contents:
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
 - [Advanced Engineering Skills](sections/03-AdvancedSkills.md)
-- [Hands On Course](sections/04-HandsOnCourse.md)‚
+- [Free Hands On Courses / Tutorials](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
-- [130+ Data Sources Data Science](sections/07-DataSources.md)
+- [130+ Data Sources for Portfolio Projects](sections/07-DataSources.md)
+- [Project README Template](Code%20Examples/template-readme.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
-- [Recommended Books and Courses](sections/09-BooksAndCourses.md)
-<!--  -->
+- [Recommended Books, Courses, and Podcasts](sections/09-BooksAndCourses.md)
+- [Updates](sections/10-Updates.md)
+<!--  test -->
 
 - [How To Contribute](#how-to-contribute)
 - [Support What You Like](#support)
@@ -64,11 +72,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 # Full Table Of Contents:
 ##  Introduction
 - [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
-- [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Engineer](sections/01-Introduction.md#data-engineer)
-  - [Data Scientist](sections/01-Introduction.md#data-scientist)
-  - [Machine Learning Workflow](sections/01-Introduction.md#machine-learning-workflow)
-  - [Machine Learning Model and Data](sections/01-Introduction.md#machine-learning-model-and-data)
+- [Data Engineers](sections/01-Introduction.md#data-engineers)
 - [My Data Science Platform Blueprint](sections/01-Introduction.md#my-data-science-platform-blueprint)
   - [Connect](sections/01-Introduction.md#connect)
   - [Buffer](sections/01-Introduction.md#buffer)
@@ -76,6 +80,15 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Store](sections/01-Introduction.md#store)
   - [Visualize](sections/01-Introduction.md#visualize)
 - [Who Companies Need](sections/01-Introduction.md#who-companies-need)
+- [How to Learn Data Engineering](sections/01-Introduction.md#how-to-learn-data-engineering)
+	- [Andreas on the Super Data Science Podcast](sections/01-Introduction.md#Interview-with-Andreas-on-the-Super-Data-Science-Podcast)
+	- [Building Blocks to Learn Data Engineering](sections/01-Introduction.md#building-blocks-to-learn-data-engineering)
+  - [Roadmap for Beginners](sections/01-Introduction.md#roadmap-for-beginners)
+	- [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
+	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
+	- [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
+- [Data Engineers Skills Matrix](sections/01-Introduction.md#data-engineers-skills-matrix)
+- [How to Become a Senior Data Engineer](sections/01-Introduction.md#how-to-become-a-senior-data-engineer)
 
 ## Basic Engineering Skills
 - [Learn To Code](sections/02-BasicSkills.md#learn-to-code)
@@ -130,13 +143,9 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
     - [Scaling Up](sections/03-AdvancedSkills.md#scaling-up)
     - [Scaling Out](sections/03-AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](sections/03-AdvancedSkills.md#please-dont-go-big-data)
-- [Hadoop Platforms](sections/03-AdvancedSkills.md#hadoop-platforms)
-  - [What is Hadoop](sections/03-AdvancedSkills.md#what-is-hadoop)
-  - [What makes Hadoop so popular](sections/03-AdvancedSkills.md#what-makes-hadoop-so-popular)
-  - [Hadoop Ecosystem Components](sections/03-AdvancedSkills.md#hadoop-ecosystem-components)
-  - [Hadoop is Everywhere?](sections/03-AdvancedSkills.md#hadoop-is-everywhere)
-  - [Should You Learn Hadoop?](sections/03-AdvancedSkills.md#should-you-learn-hadoop)
-  - [How to Select Hadoop Cluster Hardware](sections/03-AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
+- [81 Platform & Pipeline Design Questions](sections/03-AdvancedSkills.md#81-platform-and-pipeline-design-questions)
+  - [Data Source Questions](sections/03-AdvancedSkills.md#data-source-questions)
+  - [Goals and Destination Questions](sections/03-AdvancedSkills.md#goals-and-destination-questions)
 - [Connect](sections/03-AdvancedSkills.md#connect)
   - [REST APIs](sections/03-AdvancedSkills.md#rest-apis)
     - [API Design](sections/03-AdvancedSkills.md#api-design)
@@ -195,24 +204,27 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Apache Drill](sections/03-AdvancedSkills.md#apache-drill)
   - [StreamSets](sections/03-AdvancedSkills.md#streamsets)
 - [Store](sections/03-AdvancedSkills.md#store)
-  - [Data Warehouse vs Data Lake](sections/03-AdvancedSkills.md#data-warehouse-vs-data-lake)
-  - [SQL Databases](sections/03-AdvancedSkills.md#sql-databases)
-    - [PostgreSQL DB](sections/03-AdvancedSkills.md#postgresql-db)
-    - [Database Design](sections/03-AdvancedSkills.md#database-design)
-    - [SQL Queries](sections/03-AdvancedSkills.md#sql-queries)
-    - [Stored Procedures](sections/03-AdvancedSkills.md#stored-procedures)
-    - [ODBC/JDBC Server Connections](sections/03-AdvancedSkills.md#odbc-jdbc-server-connections)
-  - [NoSQL Stores](sections/03-AdvancedSkills.md#nosql-stores)
-    - [HBase KeyValue Store](sections/03-AdvancedSkills.md#keyvalue-stores-hbase)
-    - [HDFS Document Store](sections/03-AdvancedSkills.md#document-stores-hdfs)
-    - [MongoDB Document Store](sections/03-AdvancedSkills.md#document-stores-mongodb)
-    - [Elasticsearch Document Store](sections/03-AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-    - [Hive Warehouse](sections/03-AdvancedSkills.md#hive-warehouse)
-    - [Impala](sections/03-AdvancedSkills.md#impala)
-    - [Kudu](sections/03-AdvancedSkills.md#kudu)
-    - [Apache Druid](sections/03-AdvancedSkills.md#apache-druid)
-    - [InfluxDB Time Series Database](sections/03-AdvancedSkills.md#influxdb-time-series-database)
-    - [Greenplum MPP Database](sections/03-AdvancedSkills.md#mpp-databases-greenplum)
+	- [Analytical Data Stores](03-AdvancedSkills.md#analytical-data-stores)
+		- [Data Warehouse vs Data Lake](sections/03-AdvancedSkills.md#data-warehouse-vs-data-lake)
+		- [Snowflake and dbt](sections/03-AdvancedSkills.md#snowflake-and-dbt)
+	- [Transactional Data Stores](sections/03-AdvancedSkills.md#transactional-data-stores)
+		- [SQL Databases](sections/03-AdvancedSkills.md#sql-databases)
+	    - [PostgreSQL DB](sections/03-AdvancedSkills.md#postgresql-db)
+	    - [Database Design](sections/03-AdvancedSkills.md#database-design)
+	    - [SQL Queries](sections/03-AdvancedSkills.md#sql-queries)
+	    - [Stored Procedures](sections/03-AdvancedSkills.md#stored-procedures)
+	    - [ODBC/JDBC Server Connections](sections/03-AdvancedSkills.md#odbc-jdbc-server-connections)
+	  - [NoSQL Stores](sections/03-AdvancedSkills.md#nosql-stores)
+	    - [HBase KeyValue Store](sections/03-AdvancedSkills.md#keyvalue-stores-hbase)
+	    - [HDFS Document Store](sections/03-AdvancedSkills.md#document-stores-hdfs)
+	    - [MongoDB Document Store](sections/03-AdvancedSkills.md#document-stores-mongodb)
+	    - [Elasticsearch Document Store](sections/03-AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
+	    - [Hive Warehouse](sections/03-AdvancedSkills.md#hive-warehouse)
+	    - [Impala](sections/03-AdvancedSkills.md#impala)
+	    - [Kudu](sections/03-AdvancedSkills.md#kudu)
+	    - [Apache Druid](sections/03-AdvancedSkills.md#apache-druid)
+	    - [InfluxDB Time Series Database](sections/03-AdvancedSkills.md#influxdb-time-series-database)
+	    - [Greenplum MPP Database](sections/03-AdvancedSkills.md#mpp-databases-greenplum)
 - [Visualize](sections/03-AdvancedSkills.md#visualize)
   - [Android and IOS](sections/03-AdvancedSkills.md#android-and-ios)
   - [API Design for Mobile Apps](sections/03-AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
@@ -246,16 +258,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## Hands On Course
 
-- [What We Want To Do](sections/04-HandsOnCourse.md#what-we-want-to-do)
-- [Thoughts On Choosing A Development Environment](sections/04-HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
-- [A Look Into the Twitter API](sections/04-HandsOnCourse.md#a-look-into-the-twiiter-api)
-- [Ingesting Tweets with Apache Nifi](sections/04-HandsOnCourse.md#ingesting-tweets-with-apache-nifi)
-- [Writing from Nifi to Apache Kafka](sections/04-HandsOnCourse.md#writing-from-nifi-to-kafka)
-- [Apache Zeppelin Data Processing](sections/04-HandsOnCourse.md#apache-zeppelin)
-  - [Install and Ingest Kafka Topic](sections/04-HandsOnCourse.md#install-and-ingest-kafka-topic)
-  - [Processing Messages with Spark & SparkSQL](sections/04-HandsOnCourse.md#processing-messages-with-spark-and-sparksql)
-  - [Visualizing Data](sections/04-HandsOnCourse.md#visualizing-data)
-- [Switch Processing from Zeppelin to Spark](sections/04-HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
+- [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](sections/04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine-docker-and-grafana)
+- [Monitor your data in dbt & detect quality issues with Elementary](sections/04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
+- [Solving Engineers 4 Biggest Airflow Problems](sections/04-HandsOnCourse.md#solving-engineers-4-biggest-airflow-problems)
+- [The best alternative to Airlfow? Mage.ai](sections/04-HandsOnCourse.md#the-best-alternative-to-airlfow?-mage.ai)
 
 ## Case Studies
 
@@ -325,8 +331,9 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Containerization](sections/06-BestPracticesCloud.md#Containerization-2)
   - [Best Practices](sections/06-BestPracticesCloud.md#Best-Practices-2)
 
-## 130+ Free Data Sources For Data Science
+## 130+ Data Sources for Portfolio Projects
 
+- [Student Favorites](sections/07-DataSources.md#Student-Favorites)
 - [General And Academic](sections/07-DataSources.md#General-And-Academic)
 - [Content Marketing](sections/07-DataSources.md#Content-Marketing)
 - [Crime](sections/07-DataSources.md#Crime)
@@ -351,33 +358,24 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 - [Interview Questions](sections/08-InterviewQuestions.md)
 
-## Recommended Books and Courses
+## Recommended Books, Courses, and Podcasts
 
 - [About Books and Courses](sections/09-BooksAndCourses.md#about-books-and-courses)
 - [Books](sections/09-BooksAndCourses.md#books)
   - [Languages](sections/09-BooksAndCourses.md#books-languages)
-    - [Java](sections/09-BooksAndCourses.md#java)
-    - [Python](sections/09-BooksAndCourses.md#Python)
-    - [Scala](sections/09-BooksAndCourses.md#Scala)
-    - [Swift](sections/09-BooksAndCourses.md#Swift)
-  - [Data Science Tools](sections/09-BooksAndCourses.md#books-data-science-tools)
-    - [Apache Spark](sections/09-BooksAndCourses.md#apache-spark)
-    - [Apache Kafka](sections/09-BooksAndCourses.md#apache-Kafka)
-    - [Apache Hadoop](sections/09-BooksAndCourses.md#apache-Hadoop)
-    - [Apache HBase](sections/09-BooksAndCourses.md#apache-HBase)
+  - [Data Tools & Platforms](sections/09-BooksAndCourses.md#books-data-science-tools)
   - [Business](sections/09-BooksAndCourses.md#Books-Business)
-    - [The Lean Startup](sections/09-BooksAndCourses.md#the-lean-startup)
-    - [Zero to One](sections/09-BooksAndCourses.md#zero-to-one)
-    - [The Innovators Dilemma](sections/09-BooksAndCourses.md#the-innovators-dilemma)
-    - [Crossing the Chasm](sections/09-BooksAndCourses.md#crossing-the-chasm)
-    - [Crush It!](sections/09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](sections/09-BooksAndCourses.md#Community-Recommendations)
-    - [Designing Data-Intensive Applications](sections/09-BooksAndCourses.md#designing-data-intensive-applications)
-- [Online Courses](BooksAndCourses#online-courses)
-  - [Machine Learning Stanford](sections/09-BooksAndCourses.md#machine-learning-stanford)
-  - [Computer Networking](sections/09-BooksAndCourses.md#computer-networking)
-  - [Spring Framework](sections/09-BooksAndCourses.md#spring-framework)
-  - [IOS App Development Specialization](sections/09-BooksAndCourses.md#ios-app-development-specialization)
+- [Online Courses](sections/09-BooksAndCourses.md#online-courses)
+  - [Preparation courses](sections/09-BooksAndCourses.md#Preparation-courses)
+  - [Data engineering courses](sections/09-BooksAndCourses.md#Data-engineering-courses)
+- [Certifications](sections/09-BooksAndCourses.md#Certifications)
+- [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
+  - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
+  - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
+  - [Data Engineering Podcast](sections/09-BooksAndCourses.md#Data-Engineering-Podcast)
+  - [Roaring Elephant BiteSized Big Tech](sections/09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
+  - [SQL Data Partners Podcast](sections/09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
 
 
 ## How To Contribute
@@ -388,22 +386,11 @@ You can also open an issue and put your thoughts there.
 
 Please use the "Issues" function for comments.
 
-## Support
-
-Everything is free, but please support what you like!
-Join my Patreon and become a plumber yourself:
-[Link to my Patreon](https://patreon.com/plumbersofds)
-
-Or support me and send a message I read on the next livestream through Paypal.me:
-[Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
 
 ## Important Links
 
-Subscribe to my Plumbers of Data Science YouTube channel for regular updates:
+Subscribe to my YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
-
-Check out my blog and get updated via mail by joining my mailing list:
-[andreaskretz.com](https://andreaskretz.com)
 
 I have a Medium publication where you can publish your data engineer articles to reach more people:
 [Medium publication](https://link.medium.com/9oi1VDrhPW)

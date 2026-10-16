@@ -12,8 +12,11 @@ I haven't had the chance to check each link myself. Please let me know if someth
 
 You can find the articles on the bottom of this section to read more. They include even more data sources I haven't had time to add to this list.
 
-## Contents:
 
+
+## Contents
+
+- [Student Favorites](07-DataSources.md#Student-Favorites)
 - [Content Marketing](07-DataSources.md#Content-Marketing)
 - [Crime](07-DataSources.md#Crime)
 - [Drugs](07-DataSources.md#Drugs)
@@ -33,6 +36,52 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Travel And Transportation](07-DataSources.md#Travel-And-Transportation)
 - [Various Portals](07-DataSources.md#Various-Portals)
 
+## Student Favorites
+
+In my Coaching program my students learn by doing a project. And the foundation of every project is selecting a dataset.
+That can be an API or a file source, depending a lot on the student's goals and interests.
+
+Working out goals for the dataset, figuring out the data modeling, creating the architecture and building it. 
+It's a fun way to learn and get better at Data Engineering. 
+
+Here's a list of my student's favorite datasets and APIs
+
+Building a project? Use my project README template to document it properly: [template-readme.md](../Code%20Examples/template-readme.md)
+
+### Datasets
+
+| Dataset | Description |
+|---------|-------------|
+| [Fraud detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection) | Simulated credit card transactions labeled as fraudulent or legitimate, ideal for classification and imbalanced-data projects. |
+| [Industrial equipment monitoring](https://www.kaggle.com/datasets/dnkumars/industrial-equipment-monitoring-dataset) | Sensor readings from industrial equipment (temperature, pressure, vibration) for predictive maintenance and anomaly detection. |
+| [Energy demand & generation](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather?select=weather_features.csv) | Four years of hourly electricity consumption, generation, prices and weather data for Spain, great for time-series forecasting. |
+| [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) | Transactional data from a UK online retailer, useful for customer segmentation, market basket and RFM analysis. |
+| [Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) | Olist's public dataset of 100k+ orders with customers, products, payments, reviews and geolocation for end-to-end analytics. |
+| [Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set) | Hourly air pollutant readings across multiple Beijing stations with weather data, good for time-series and environmental analysis. |
+| [NYC Taxi](https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers) | New York City taxi trip and revenue data for cab drivers, useful for revenue, tipping and time-series analysis. |
+| [E-commerce clickstream & transactions](https://www.kaggle.com/datasets/waqi786/e-commerce-clickstream-and-transaction-dataset) | Simulated online shopping clickstream and transaction data — user sessions, page views, clicks and purchases — good for funnel and behavior analysis. |
+| [IESO Ontario electricity data](https://reports-public.ieso.ca/public/) | Public report files from Ontario's grid operator: electricity demand, generation by fuel type, market prices and more, updated regularly as CSV/XML. |
+| [IoT device temperature readings](https://www.kaggle.com/datasets/atulanandjha/temperature-readings-iot-devices) | Temperature sensor readings from IoT devices with indoor/outdoor tags and timestamps, great for time-series and anomaly detection. |
+| [IoT agriculture 2024](https://www.kaggle.com/datasets/wisam1985/iot-agriculture-2024) | Smart-farming sensor data (soil moisture, temperature, humidity, etc.) for agriculture monitoring and IoT analytics projects. |
+
+### APIs
+
+| API | Description |
+|-----|-------------|
+| [Bike sharing Bluebikes](https://bluebikes.com/system-data) | Trip and station data for Boston's Bluebikes bike-share system, including GBFS real-time feeds and downloadable trip history. |
+| [Bike sharing Divvy Bikes](https://divvybikes.com/system-data) | Trip and station data for Chicago's Divvy bike-share system, with GBFS real-time feeds and historical ride files. |
+| [Weather API](https://www.weatherapi.com/docs/) | Weather API with current conditions, forecasts, historical data and astronomy; generous free tier. |
+| [Bluesky API](https://docs.bsky.app/docs/advanced-guides/api-directory) | API for the Bluesky social network (AT Protocol): posts, profiles, feeds and social graph data. |
+| [Guardian news API](https://open-platform.theguardian.com/) | Access to The Guardian's articles, tags and sections; great for text and news analysis, free with an API key. |
+| [Football API](https://www.api-football.com/) | Football (soccer) data API: fixtures, live scores, standings, teams, players and statistics across many leagues. |
+| [HSL Helsinki public transport](https://www.hsl.fi/en/hsl/open-data) | Open transit data for the Helsinki region: routes, schedules, GTFS feeds, real-time vehicle positions and a routing API. |
+| [Digitransit map API](https://digitransit.fi/en/developers/apis/4-map-api/background-map/) | Background map and vector tiles API for building transit and mobility maps (Finland/Helsinki region). |
+| [Open-Meteo](https://open-meteo.com/) | Free open-source weather API with forecasts, historical data and air quality, no API key required. |
+| [Finnish Meteorological Institute open data](https://en.ilmatieteenlaitos.fi/open-data-sets-available) | Weather observations, forecasts and climate data for Finland, served via open WFS/download APIs. |
+| [OpenWeatherMap](https://openweathermap.org/price) | Weather API with current conditions, forecasts and historical data via the One Call API; free tier plus paid plans. |
+| [SMARD German electricity market API](https://github.com/bundesAPI/smard-api/tree/main) | API for Germany's electricity market data: generation, consumption and prices from the Bundesnetzagentur (documentation in German). |
+
+
 ## General And Academic
 
 - [Amazon Public Data Sets](https://registry.opendata.aws/)
@@ -41,7 +90,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [FiveThirtyEight](http://fivethirtyeight.com/)
 - [Google Scholar](http://scholar.google.com/)
 - [Pew Research](http://www.pewresearch.org/)
-- [Qlik DataMarket](http://www.qlik.com/products/qlik-data-market)
 - [The Upshot by New York Times](http://www.nytimes.com/section/upshot)
 - [UNData](http://data.un.org/)
 
@@ -71,7 +119,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 - [Education Data by the World Bank](http://data.worldbank.org/topic/education)
 - [Education Data by Unicef](http://data.unicef.org/education/overview.html)
-- [Government Data About Education](https://www.data.gov/education/)
 - [National Center for Education Statistics](https://nces.ed.gov/)
 
 ## Entertainment
@@ -91,7 +138,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Environmental Protection Agency](https://www.epa.gov/data)
 - [International Energy Agency Atlas](https://www.iea.org/data-and-statistics?country=WORLD&fuel=Energy%20supply&indicator=TPESbySource)
 - [National Center for Environmental Health](http://www.cdc.gov/nceh/data.htm)
-- [National Centers for Environmental Information](https://www.ncdc.noaa.gov/wdcmet/data-access-search-viewer-tools/world-weather-records-wwr-clearinghouse)
 - [National Climatic Data Center](http://www.ncdc.noaa.gov/data-access/quick-links#loc-clim)
 - [National Weather Service](http://www.weather.gov/help-past-weather)
 - [Weather Underground](https://www.wunderground.com/)
@@ -117,7 +163,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 ## Government And World
 
-- [Data Catalogs](http://opengovernmentdata.org/data/)
 - [Data.gov](http://www.data.gov/)
 - [European Union Open Data Portal](http://data.europa.eu/euodp/en/data/)
 - [Gapminder](https://www.gapminder.org/data/)
@@ -128,7 +173,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [The World Bank’s World Development Indicators](http://data.worldbank.org/data-catalog/world-development-indicators)
 - [U.S. Census Bureau](http://www.census.gov/)
 - [UNDP’s Human Development Index](http://hdr.undp.org/en/data)
-- [Unicef](http://www.unicef.org/statistics/)
 
 ## Health
 
@@ -140,16 +184,12 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Medicare Hospital Quality](https://data.medicare.gov/data/hospital-compare#)
 - [MedicinePlus](https://www.nlm.nih.gov/medlineplus/healthstatistics.html)
 - [National Center for Health Statistics](http://www.cdc.gov/nchs/)
-- [Partners in Information Access for the Public Health Workforce](https://phpartners.org/health_stats.html)
-- [President’s Council on Fitness, Sports & Nutrition](http://www.fitness.gov/resource-center/facts-and-statistics/)
 - [SEER Cancer Incidence](http://seer.cancer.gov/faststats/selections.php?series=cancer)
-- [The BROAD Institute](http://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
 - [World Health Organization](http://www.who.int/en/)
 
 ## Human Rights
 
 - [Amnesty International](https://www.amnesty.org/en/search/?q=&documentType=Annual+Report)
-- [Harvard Law School](http://hls.harvard.edu/library/research/find-a-database/international-relations-human-rights-data/)
 - [Human Rights Data Analysis Group](https://hrdag.org/)
 - [The Armed Conflict Database by Uppsala University](http://www.pcr.uu.se/research/UCDP/)
 
@@ -165,7 +205,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [California Field Poll](http://dlab.berkeley.edu/data-resources/california-polls)
 - [Crowdpac](https://www.crowdpac.com/)
 - [Gallup](http://www.gallup.com/home.aspx)
-- [Intro to Political Science Research by UC Berkeley](http://guides.lib.berkeley.edu/Intro-to-Political-Science-Research/Stats)
 - [Open Secrets](https://www.opensecrets.org/)
 - [Rand State Statistics](http://www.randstatestats.org/us/)
 - [Real Clear Politics](http://guides.lib.berkeley.edu/Intro-to-Political-Science-Research/Stats)
